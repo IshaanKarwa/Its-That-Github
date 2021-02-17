@@ -31,8 +31,14 @@ function setup(){
     log3 =  new Log(810,180,300, PI/2);
 
     box5 = new Box(810,160,70,70);
-    log4 = new Log(760,120,150, PI/7);
-    log5 = new Log(870,120,150, -PI/7);
+    box6 = new Box(20,160,70,70);
+    box7 = new Box(510,160,70,70);
+    box8 = new Box(60,160,70,70);
+    box9 = new Box(250,160,70,70);
+    box10 = new Box(110,160,70,70);
+    box11 = new Box(710,160,70,70);
+    log12 = new Log(760,120,150, PI/7);
+    log13= new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
 
@@ -56,8 +62,14 @@ function draw(){
     log3.display();
 
     box5.display();
-    log4.display();
-    log5.display();
+    box6.display();
+    box7.display();
+    box8.display();
+    box9.display();
+    box10.display();
+    box11.display();
+    log12.display();
+    log13.display();
 
     bird.display();
     platform.display();
